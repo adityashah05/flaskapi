@@ -6,7 +6,7 @@ Usage
 
 Clone the repo:
 
-    git clone https://github.com/adityashah05/flaskapi
+    git clone https://github.com/adityashah05/flaskapi.git
     cd flaskapi
 
 Create virtualenv:
