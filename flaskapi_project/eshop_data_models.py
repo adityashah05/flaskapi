@@ -10,7 +10,7 @@ import os
 import pandas as pd
 import sqlite3
 from flask_sqlalchemy import SQLAlchemy
-from flaskapi import app
+from flaskapi_project.flaskapi import app
 
 CREATE_DB = False
 
