@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify, abort
-from analytics import ShopDataAnalytics
-from api_def import get_data_by_date
+from flaskapi_project.analytics import ShopDataAnalytics
+from flaskapi_project.api_def import get_data_by_date
 import json
 from http import HTTPStatus
 import logging, logging.config, yaml
