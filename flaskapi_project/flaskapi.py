@@ -4,7 +4,7 @@ Unit Test Module: test.test_flaskapi.py
 """
 
 from flask import Flask
-from flaskapi_blueprint import apiBluePrint
+from flaskapi_project.flaskapi_blueprint import apiBluePrint
 import os
 
 app = Flask(__name__)
