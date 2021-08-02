@@ -12,7 +12,7 @@ app = Flask(__name__)
 # to Keep the response order intact
 app.config['JSON_SORT_KEYS'] = False
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///eshop_data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///flaskapi_project/eshop_data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 app.register_blueprint(apiBluePrint)
