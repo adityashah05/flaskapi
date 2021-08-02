@@ -6,10 +6,8 @@ This is the test module of the flaskapi.py, the test cases check the following:
 Module: flaskapi.py
 """
 
-import os
-import sys
-topdir = os.path.join(os.path.dirname(__file__), "..")
-sys.path.append(topdir)
+import sys, os
+sys.path = [os.path.abspath(os.path.dirname(__file__))]+sys.path
 
 import unittest
 from flaskapi_project.flaskapi import app
