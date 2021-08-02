@@ -39,7 +39,7 @@ How to run the test cases
     4) go to the test folder 
         cd test
     5) run the test file
-        python python test_flaskapi.py
+        python test_flaskapi.py
     
 License
 -------
