@@ -6,7 +6,7 @@ from http import HTTPStatus
 import logging, logging.config, yaml
 
 # defining log files for errors and info
-logging.config.dictConfig(yaml.load(open('flaskapi_project.logging.conf')))
+logging.config.dictConfig(yaml.load(open('flaskapi_project//logging.conf')))
 errorfile = logging.getLogger('logfile1')
 infofile = logging.getLogger('logfile2')
 
