@@ -12,7 +12,7 @@ Module: flaskapi.py
 #sys.path.append(topdir)
 
 import unittest
-from flaskapi.flaskapi_project.flaskapi import app
+from flaskapi_project.flaskapi import app
 import requests
 from flask import abort
 
