@@ -9,7 +9,7 @@ import pathlib
 filepath = pathlib.Path(__file__).parent.resolve()
 
 # defining log files for errors and info
-logging.config.dictConfig(yaml.load(open(str(filepath)+'/'+'logging.conf')))
+logging.config.dictConfig(yaml.full_load(open(str(filepath)+'/'+'logging.conf')))
 errorfile = logging.getLogger('logfile1')
 infofile = logging.getLogger('logfile2')
 
