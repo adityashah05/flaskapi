@@ -12,7 +12,7 @@ topdir = os.path.join(os.path.dirname(__file__), "..")
 sys.path.append(topdir)
 
 import unittest
-from flaskapi_project.flaskapi import app
+from flaskapi.flaskapi_project.flaskapi import app
 import requests
 from flask import abort
 
