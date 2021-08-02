@@ -1,6 +1,6 @@
 """
 This is the main module of the API which creates a flask object and registers the endpoints using blueprint
-Unit Test Module: test_flaskapi.py
+Unit Test Module: test.test_flaskapi.py
 """
 
 from flask import Flask
