@@ -10,8 +10,8 @@ Clone the repo:
     cd flaskapi
 
 Create virtualenv:
-    python3 -m virtualenv venv
     
+    python3 -m virtualenv venv
     If virtual env not found (don't run if the top command is successful) : 
         python3 -m pip install --user --upgrade pip
         python3 -m pip --version
