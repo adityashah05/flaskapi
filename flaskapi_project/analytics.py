@@ -28,7 +28,7 @@ class ShopDataAnalytics:
         Constructor to set the requested date and the database connection
         """
         self.requestedDate = date
-        self.conn = sqlite3.connect('eshop_data.db')
+        self.conn = sqlite3.connect('flaskapi_project//eshop_data.db')
 
 
     def getData(self):
