@@ -4,6 +4,7 @@ from flaskapi_project.api_def import get_data_by_date
 import json
 from http import HTTPStatus
 import logging, logging.config, yaml
+import traceback
 
 # defining log files for errors and info
 logging.config.dictConfig(yaml.load(open('flaskapi_project//logging.conf')))
@@ -41,7 +42,7 @@ def event():
                 json.dumps(result, indent=2, sort_keys=False),
                 mimetype=app.config['JSONIFY_MIMETYPE'])
         except Exception as e:
-            errorfile.debug(e)
+            errorfile.debug(traceback.print_exc())
             abort(HTTPStatus.INTERNAL_SERVER_ERROR.value)
     else:
         abort(HTTPStatus.BAD_REQUEST.value)
