@@ -7,7 +7,7 @@ Module: flaskapi.py
 """
 
 import sys, os
-sys.path = [os.path.abspath(os.path.dirname(__file__))]+sys.path
+sys.path.append("..")
 
 import unittest
 from flaskapi_project.flaskapi import app
