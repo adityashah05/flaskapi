@@ -34,7 +34,7 @@ def event():
         try:
             result = get_data_by_date(date)
             # using json.dumps to format the response with an indent(new line for every key) to make it more readable)
-            from flaskapi import app
+            from flaskapi_project.flaskapi import app
             infofile.info(request.url)
             infofile.info(result)
             return app.response_class(
