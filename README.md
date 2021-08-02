@@ -27,7 +27,7 @@ Run the sample server
 
 Try the endpoints:
 
- http://localhost:5000/date?=2019-08-01
+ http://localhost:5000/?date=2019-08-01
 
 
 License
