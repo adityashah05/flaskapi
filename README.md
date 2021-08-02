@@ -22,7 +22,7 @@ Run the sample server
 
 Try the endpoints:
 
-    curl -XGET http://localhost:5000/date?=2019-08-01
+ http://localhost:5000/date?=2019-08-01
 
 
 License
