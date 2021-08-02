@@ -4,9 +4,12 @@ from flaskapi_project.api_def import get_data_by_date
 import json
 from http import HTTPStatus
 import logging, logging.config, yaml
+import pathlib
+
+filepath = pathlib.Path(__file__).parent.resolve()
 
 # defining log files for errors and info
-logging.config.dictConfig(yaml.load(open('flaskapi_project//logging.conf')))
+logging.config.dictConfig(yaml.load(open(filepath+'logging.conf')))
 errorfile = logging.getLogger('logfile1')
 infofile = logging.getLogger('logfile2')
 
