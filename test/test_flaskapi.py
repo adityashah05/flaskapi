@@ -8,11 +8,10 @@ Module: flaskapi.py
 
 import os
 import sys
-topdir = os.path.join(os.path.dirname(__file__), "..")
-sys.path.append(topdir)
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import unittest
-from flaskapi.flaskapi_project.flaskapi import app
+from flaskapi import app
 import requests
 from flask import abort
 
