@@ -4,7 +4,7 @@ for example: get_data_by_date
     This function calls the analytics modules and gets the shop data by date
 """
 
-from analytics import ShopDataAnalytics
+from flaskapi_project.analytics import ShopDataAnalytics
 
 
 def get_data_by_date(date):
