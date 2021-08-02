@@ -10,11 +10,16 @@ Clone the repo:
     cd flaskapi
 
 Create virtualenv:
-
-    virtualenv venv
+    python3 -m virtualenv venv
+    
+    If virtual env not found (don't run if the top command is successful) : 
+        python3 -m pip install --user --upgrade pip
+        python3 -m pip --version
+        python3 -m pip install --user virtualenv
+    
     source venv/bin/activate
     pip install -r requirements.txt
-    python setup.py develop # or install if you prefer
+    python setup.py install
 
 Run the sample server
 
