@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='flask_minimal',
+    name='flaskapi_project',
     version='1.0.0',
     description='Template to build Flask-based APIs',
     license='',
