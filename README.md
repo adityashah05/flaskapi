@@ -29,7 +29,18 @@ Try the endpoints:
 
  http://localhost:5000/?date=2019-08-01
 
+How to run the test cases
 
+    1) make sure the flask server is running
+    2) open a new terminal window
+    3) go to the project directory
+    3) activate the virtula env like we did before
+        source venv/bin/activate
+    4) go to the test folder 
+        cd test
+    5) run the test file
+        python python test_flaskapi.py
+    
 License
 -------
 
